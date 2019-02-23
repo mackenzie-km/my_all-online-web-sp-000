@@ -6,7 +6,7 @@ def my_all?(collection)
 while i < collection.length
 new_array << yield(collection[i])
 i += 1 
-new_array.include?(false)? false: true
 end
+new_array.include?(false) ? false : true
 end
 
