@@ -1,6 +1,6 @@
 require 'pry'
 
-collection = [1, 2, 3, 4]
+
 
 def my_all?(collection)
   [] = new_array
@@ -12,5 +12,3 @@ new_array.include(false)? false: true
 end
 end
 
-
-my_all?(collection){|i| i > 2}
