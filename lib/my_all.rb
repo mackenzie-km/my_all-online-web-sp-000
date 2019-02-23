@@ -1,7 +1,5 @@
 require 'pry'
 
-
-
 def my_all?(collection)
   new_array = []
   i = 0 
