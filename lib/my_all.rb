@@ -10,4 +10,4 @@ end
 end
 
 
-my_all?(collection){i > 2}
+my_all?(collection){|i| i > 2}
